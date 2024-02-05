@@ -1,4 +1,6 @@
 import './App.css'
+import 'aframe';
+import 'mind-ar/dist/mindar-image-aframe.prod.js';
 
 function App() {
   return (
