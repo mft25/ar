@@ -13,7 +13,7 @@ function App() {
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <a-entity mindar-image-target="targetIndex: 0">
-          <a-gltf-model rotation="0 -90 0 " position="0 0 0" scale="0.5 0.5 0.5" src="#duckModel" animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate"></a-gltf-model>
+          <a-gltf-model rotation="0 -90 0 " position="0 0 0" scale="0.5 0.5 0.5" src="#duckModel"></a-gltf-model>
         </a-entity>
       </a-scene>
     </div>
