@@ -2,6 +2,19 @@ import './App.css'
 import 'aframe';
 import 'mind-ar/dist/mindar-image-aframe.prod.js';
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      ['a-scene']: any;
+      ['a-assets']: any;
+      ['a-asset-item']: any;
+      ['a-camera']: any;
+      ['a-entity']: any;
+      ['a-gltf-model']: any;
+    }
+  }
+}
+
 function App() {
   return (
     <div className="video-container">
