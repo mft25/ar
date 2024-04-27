@@ -1,5 +1,7 @@
 # Application info
 
+A website for showing some 3D models pinned to shapes that are identified by the camera. The application is built using the [MindAR](https://www.npmjs.com/package/mind-ar?activeTab=readme) library.
+
 ## Running the application
 
 Navigate to the root directory and install the dependencies: `npm install`.
